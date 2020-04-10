@@ -1,0 +1,24 @@
+{
+    "2020": [
+      {
+        "id": "2020-04-11-first-entry",
+        "date": "11. April 2020",
+        "title": "Hello World from Wolkencode",
+        "description": "Mein erster Beitrag :-)"
+      },
+      {
+        "id": "2020-04-12-wsl",
+        "date": "11. April 2020",
+        "title": "I love WSL",
+        "description": "Das ist echt klasse!"
+      }
+    ],
+    "projects": [
+      {
+        "id": "project-1",
+        "date": "11. April 2020",
+        "title": "My first project",
+        "description": "Das ist echt klasse!"
+      }
+    ]
+}
