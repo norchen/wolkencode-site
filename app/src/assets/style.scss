@@ -1,0 +1,62 @@
+/*  using customized bulma 
+    can be imported with everything by import './../node_modules/bulma/css/bulma.css' f.e. in main.js
+    but due to minimize package just use what you need 
+    tutorial: https://justaashir.com/blog/how-to-setup-bulma-with-vue/ 
+*/ 
+
+@charset "utf-8";
+
+// fonts
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    display: swap;
+    src: local('Roboto Light'), local('Roboto-Light'), url(./fonts/Roboto-Light.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    display: swap;
+    src: local('Roboto Regular'), local('Roboto-Regular'), url(./fonts/Roboto-Regular.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    display: swap;
+    src: local('Roboto Medium'), local('Roboto-Medium'), url(./fonts/Roboto-Medium.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Cookie';
+    font-style: normal;
+    font-weight: 500;
+    display: swap;
+    src: local('Cookie Regular'), local('Cookie-Regular'), url(./fonts/Cookie-Regular.ttf) format('truetype');
+}
+
+// website
+$brown: #A27977; // main colour
+$pink: #E7ACAA; // second colour
+$black: #707070; // text colour 
+
+// adjust Bulma's global variables
+$family-sans-serif: "Roboto", "Cookie", sans-serif;
+$primary: $brown;
+$link: $pink;
+
+// Iimport only the needed parts of bulma
+/* @import "../../node_modules/bulma/sass/utilities/_all.sass";
+@import "../../node_modules/bulma/sass/base/_all.sass";
+@import "../../node_modules/bulma/sass/elements/button.sass";
+@import "../../node_modules/bulma/sass/elements/container.sass";
+@import "../../node_modules/bulma/sass/elements/title.sass";
+@import "../../node_modules/bulma/sass/form/_all.sass";
+@import "../../node_modules/bulma/sass/components/navbar.sass";
+@import "../../node_modules/bulma/sass/layout/hero.sass";
+@import "../../node_modules/bulma/sass/layout/section.sass"; */
+@import "../../node_modules/bulma/css/bulma.css"

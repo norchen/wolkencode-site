@@ -4,7 +4,8 @@
         "id": "2020-04-11-first-entry",
         "date": "11. April 2020",
         "title": "Hello World from Wolkencode",
-        "description": "Mein erster Beitrag :-)"
+        "description": "Mein erster Beitrag :-)",
+        "tags": ""
       },
       {
         "id": "2020-04-12-wsl",
